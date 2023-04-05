@@ -16,7 +16,7 @@ function Header() {
             <strong className="name__info">Oleksandr Shal</strong>
           </h1>
           <div className="typing">
-            <h1 className="typing__info">Trainee Frontend Developer</h1>
+            <h1 className="typing__info">Frontend Developer</h1>
           </div>
         </div>
       </div>
