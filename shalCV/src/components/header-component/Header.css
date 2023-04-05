@@ -1,0 +1,94 @@
+.header {
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+  background-image: url(../../assets/1654763844_44-celes-club-p-cherno-oranzhevie-oboi-na-rabochii-stol-kr-47.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main {
+  backdrop-filter: blur(10px);
+  width: 93vw;
+  height: 80vh;
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  border-radius: 3px;
+  border: 1.5px solid rgb(153, 119, 26);
+
+  border-style: outset;
+  border-image-slice: 1;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+.Hi {
+  color: white;
+  font-weight: normal;
+}
+.name {
+  color: white;
+  font-weight: normal;
+  margin-bottom: 5%;
+  word-spacing: 2px;
+}
+strong {
+  color: rgb(214, 129, 2);
+  font-weight: bold;
+}
+
+.typing__title {
+  width: 14ch;
+  overflow: hidden;
+  color: white;
+  font-size: 40px;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid orange;
+  animation: printed-text 3.5s steps(100),
+    flashin-border 0.75s step-start infinite;
+}
+
+.main__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 8%;
+
+  height: 100%;
+}
+.typing {
+  margin-bottom: 10%;
+}
+.typing__info {
+  width: 26ch;
+  overflow: hidden;
+  color: white;
+  font-size: 40px;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid orange;
+  animation: printed-text 3.5s steps(100),
+    flashin-border 0.75s step-start infinite;
+  color: rgb(214, 129, 2);
+}
+@keyframes flashin-border {
+  0% {
+    border-color: orange;
+  }
+
+  50% {
+    border-color: transparent;
+  }
+
+  100% {
+    border-color: orange;
+  }
+}
+
+@keyframes printed-text {
+  from {
+    width: 0%;
+  }
+}
