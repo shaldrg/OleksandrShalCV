@@ -1,4 +1,5 @@
 import "./Header.css";
+import CoderAnim from "../coder-anim/CoderAnim.jsx";
 
 function Header() {
   return (
@@ -19,7 +20,7 @@ function Header() {
             <h1 className="typing__info">Frontend Developer</h1>
           </div>
         </div>
-
+        <CoderAnim />
       </div>
     </div>
   );
