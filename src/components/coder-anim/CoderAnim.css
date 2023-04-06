@@ -2,6 +2,7 @@ body {
     height: 100%;
     width: 100%;
     background: #fffaf0;
+
 }
 
 ul {
@@ -12,14 +13,17 @@ ul {
     transition: all 5s ease;
     width: 450px;
     height: 450px;
-    background: #fad0d9;
+    background: #050505;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    border-radius: 100%;
+
     overflow: hidden;
     animation: wallChange 40s ease-in-out infinite;
+    transform: scale(0.8);
+    margin-top: -20%;
+    margin-left: 5%;
 }
 
 .window {
@@ -112,7 +116,7 @@ ul {
     position: absolute;
     width: 190px;
     height: 240px;
-    backgorund: #301353;
+    background: #301353;
     margin-top: 30px;
 }
 .small-monitor .screen li {
@@ -365,7 +369,7 @@ ul {
 .avatar .avatar-body {
     position: absolute;
     width: 130px;
-    height: 100px;
+    height: 70px;
     background: #b51231;
     top: 70%;
     border-radius: 30px;
@@ -438,28 +442,26 @@ ul {
     0% {
         background: #aadbea;
     }
-    20% {
-        background: #ff5f6d;
-    }
-    40% {
-        background: #201b46;
-    }
+
     60% {
         background: #aadbea;
     }
 }
 @keyframes wallChange {
     0% {
-        background: #fad0d9;
+        background: transparent;
     }
     20% {
-        background: #f5a2b4;
+        background: transparent;
     }
     40% {
-        background: #301353;
+        background: transparent;
     }
     60% {
-        background: #fad0d9;
+        background: transparent;
+    }
+    100% {
+        background: transparent;
     }
 }
 @keyframes cloudChange {
